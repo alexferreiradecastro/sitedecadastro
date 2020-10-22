@@ -18,7 +18,7 @@
                 <input type="password" placeholder="Confirme sua senha"/>
                 <button>Cadastre-se</button>
             </form>
-            <a href="./index.html">Já possui cadastro? Realize o login</a>
+            <a href="./index.php">Já possui cadastro? Realize o login</a>
         </div>
     </main>
 </body>

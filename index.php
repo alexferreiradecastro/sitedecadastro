@@ -18,7 +18,7 @@
                     <input type="password" placeholder="Senha">
                     <button>Entrar</button>
                 </form>
-                <a href="cadastro.html">Ainda não possui cadastro? clique aqui</a>
+                <a href="cadastro.php">Ainda não possui cadastro? clique aqui</a>
             </div>
         </section>
 
