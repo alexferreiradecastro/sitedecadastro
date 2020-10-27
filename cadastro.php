@@ -11,12 +11,12 @@
     <main>
         <div class="card">
             <h1>Cadastre-se</h1>
-            <form action="#" method="#">
-                <input type="text" placeholder="Digite seu nome"/>
-                <input type="email" placeholder="Digite seu e-mail">
-                <input type="password" placeholder="Digite sua senha"/>
-                <input type="password" placeholder="Confirme sua senha"/>
-                <button>Cadastre-se</button>
+            <form action="cadastro_usuario.php" method="post" >
+                <input type="text" name="nome" placeholder="Digite seu nome" required/>
+                <input type="email" name="email" placeholder="Digite seu e-mail" required/>
+                <input type="password" name="senha" placeholder="Digite sua senha" required/>
+                <input type="password" name="conf_senha" placeholder="Confirme sua senha" required/>
+                <button type="submit">Cadastre-se</button>
             </form>
             <a href="./index.php">Já possui cadastro? Realize o login</a>
         </div>
